@@ -35,6 +35,7 @@ for term in proprietary_terms:
     lower_proprietary_terms.append(term)
 proprietary_terms = lower_proprietary_terms
 
+#check if index i is in range
 def in_range(text, i, phrase):
     return ((i>0 and text[i-1].isalpha() == False) or i==0) and (i+len(phrase)==len(text) or text[i+len(phrase)].isalpha() == False)
 
