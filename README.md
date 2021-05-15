@@ -1,4 +1,5 @@
 # Censor-Dispenser
+**Archived project** <br>
  Four Python 3.6 censor algorithms that can be used in various situations. The censor is case-insensitive and preserves the original text. Words containing the words that should be censored are also not affected.
 
 * censor_phrase(text, phrase) - used to censor all appearances of phrase throughout the given text
